@@ -27,14 +27,12 @@ This project addresses the following questions:
 
 The population model is defined as:
 
-\[
-Y = \beta_0 + \beta_1 X + \varepsilon
-\]
+Y = β₀ + β₁X + ε
 
 with:
-- \( \beta_0 = 2 \)
-- \( \beta_1 = 3 \)
-- \( X \sim \text{Uniform}(0, 10) \)
+- β₀ = 2
+- β₁ = 3
+- X ~ Uniform(0, 10)
 
 **Importantly, the regressor \(X\) is held fixed across all scenarios.**  
 Only the **error structure** varies, ensuring that all observed effects arise solely from assumption violations rather than changes in the design matrix.
@@ -77,7 +75,7 @@ For each combination of scenario and sample size:
 5. Evaluate empirical inferential properties
 
 All hypothesis tests use:
-- **Significance level:** \( \alpha = 0.05 \)
+- **Significance level:** 0.05
 - **Confidence level:** 95%
 
 ---
@@ -86,7 +84,7 @@ All hypothesis tests use:
 
 Inference quality is assessed using:
 
-- **Bias** of \( \hat{\beta}_1 \)
+- **Bias** of β^​1​
 - **Variance** of the estimator
 - **Type I error rate**
 - **Coverage probability** of confidence intervals
@@ -101,7 +99,7 @@ Inference quality is assessed using:
 ![Bias](results/figures/bias.gif)
 
 **Finding:**  
-Across all scenarios and sample sizes, the OLS estimator of \( \beta_1 \) remains approximately unbiased.
+Across all scenarios and sample sizes, the OLS estimator of β₁ remains approximately unbiased.
 
 **Interpretation:**  
 Violations of classical assumptions do **not** invalidate the consistency of the OLS point estimator.
