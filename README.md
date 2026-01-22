@@ -167,7 +167,6 @@ Robust confidence intervals improve coverage but may still deviate from the nomi
 
 ## 6. Repository Structure
 
-```text
 when-statistical-assumptions-fail/
 ├── README.md
 │
