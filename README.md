@@ -96,7 +96,7 @@ Inference quality is assessed using:
 
 ### 4.1 Bias
 
-![Bias](results/figures/bias.gif)
+![Bias](results/figures/bias.png)
 
 **Finding:**  
 Across all scenarios and sample sizes, the OLS estimator of β₁ remains approximately unbiased.
@@ -108,7 +108,7 @@ Violations of classical assumptions do **not** invalidate the consistency of the
 
 ### 4.2 Variance
 
-![Variance](results/figures/variance.gif)
+![Variance](results/figures/variance.png)
 
 **Finding:**  
 Estimator variance decreases with increasing sample size but is inflated under heteroskedasticity and autocorrelation.
@@ -120,7 +120,7 @@ Assumption violations reduce estimator efficiency, particularly in small samples
 
 ### 4.3 Type I Error — Classical Inference
 
-![Type I Error – Classical](results/figures/type1_error_classic.gif)
+![Type I Error – Classical](results/figures/type1_error_classic.png)
 
 **Finding:**  
 Classical OLS inference exhibits substantial over-rejection when assumptions are violated.
@@ -132,7 +132,7 @@ Nominal significance levels cannot be trusted under model misspecification, even
 
 ### 4.4 Type I Error — Robust Inference
 
-![Type I Error – Robust](results/figures/type1_error_robust.gif)
+![Type I Error – Robust](results/figures/type1_error_robust.png)
 
 **Finding:**  
 Robust standard errors substantially improve Type I error control.
@@ -144,8 +144,8 @@ Robust methods mitigate—but do not entirely eliminate—inferential distortion
 
 ### 4.5 Coverage Probability
 
-![Coverage – Classical](results/figures/coverage_classic.gif)  
-![Coverage – Robust](results/figures/coverage_robust.gif)
+![Coverage – Classical](results/figures/coverage_classic.png)  
+![Coverage – Robust](results/figures/coverage_robust.png)
 
 **Finding:**  
 Classical confidence intervals systematically undercover the true parameter under assumption violations.  
