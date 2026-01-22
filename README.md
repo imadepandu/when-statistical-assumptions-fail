@@ -169,6 +169,7 @@ Robust confidence intervals improve coverage but may still deviate from the nomi
 
 when-statistical-assumptions-fail/
 ├── README.md
+├── LICENSE
 │
 ├── src/
 │   ├── data_generation.py
@@ -177,12 +178,10 @@ when-statistical-assumptions-fail/
 │   ├── runner.py
 │   └── visualization.py
 │
-├── results/
-│   ├── tables/
-│   └── figures/
-│
-└── LICENSE
-
+└── results/
+    ├── figures/
+    ├── summary/
+    └── raw/
 ---
 
 ## 7. How to Run the Simulation
