@@ -5,9 +5,6 @@ Ordinary Least Squares (OLS) regression is a cornerstone of applied statistics a
 
 This repository presents a **Monte Carlo simulation study** that systematically examines how violations of classical OLS assumptions affect statistical inference, even when point estimates appear stable.
 
-> **Core message:**  
-> *OLS estimation is often robust, but OLS inference is fragile.*
-
 ---
 
 ## 1. Research Questions
@@ -170,20 +167,24 @@ Robust confidence intervals improve coverage but may still deviate from the nomi
 
 ## 6. Repository Structure
 
+```text
 when-statistical-assumptions-fail/
 ├── README.md
 │
 ├── src/
-│ ├── Data_generation.py
-│ ├── Simulation.py
-│ ├── Evaluation.py
-│ └── Runner.py
-│ └── Visualization.py
+│   ├── data_generation.py
+│   ├── simulation.py
+│   ├── evaluation.py
+│   ├── runner.py
+│   └── visualization.py
+│
 ├── results/
-│ ├── tables/
-│ └── figures/
+│   ├── tables/
+│   └── figures/
 │
 └── LICENSE
+
+---
 
 ## 7. How to Run the Simulation
 
@@ -209,10 +210,11 @@ The simulation pipeline follows this logical order:
 
 All outputs are saved in the results/ directory.
 
+---
+
 ## 8. Credit
 
 I Made Pandu Pujangga Sakti
-Indonesia
 
 This project was developed as a personal research focusing on statistical inference and Monte Carlo simulation.
 
