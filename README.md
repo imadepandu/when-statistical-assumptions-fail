@@ -167,6 +167,7 @@ Robust confidence intervals improve coverage but may still deviate from the nomi
 
 ## 6. Repository Structure
 
+```
 when-statistical-assumptions-fail/
 ├── README.md
 ├── LICENSE
@@ -182,6 +183,7 @@ when-statistical-assumptions-fail/
     ├── figures/
     ├── summary/
     └── raw/
+```
 ---
 
 ## 7. How to Run the Simulation
